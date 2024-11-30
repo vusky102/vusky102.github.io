@@ -1,0 +1,56 @@
+/* Tag selectors */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    padding-top: 60px;
+}
+
+/* ID selector */
+#hero {
+    padding: 3rem 0;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+/* Class selectors */
+.contact-info {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.social-links a {
+    transition: transform 0.3s ease;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.project-card {
+    transition: all 0.3s ease;
+    margin-bottom: 20px;
+}
+
+.project-card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #hero {
+        padding: 2rem 1rem;
+    }
+
+    .contact-info {
+        margin-bottom: 20px;
+    }
+}
