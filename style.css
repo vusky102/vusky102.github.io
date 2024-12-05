@@ -54,3 +54,17 @@ header {
         margin-bottom: 20px;
     }
 }
+
+/* Small phones */
+@media (max-width: 480px) {
+    #hero {
+        padding: 1.5rem 0.75rem;
+    }
+}
+
+/* Larger devices */
+@media (min-width: 769px) {
+    #hero {
+        padding: 3rem 2rem;
+    }
+}
